@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    margin: 10px 0;
+}
+
+.editor > input, textarea {
+    display: block;
+}
